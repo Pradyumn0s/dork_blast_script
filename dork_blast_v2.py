@@ -21,7 +21,7 @@ valid_domains = ["luminpdf.com", "acceptmission.com", "graphenedb.com", "bugcrow
 domain = input(colored("Enter the target domain (e.g. luminpdf.com): ", 'cyan')).strip()
 
 if domain not in valid_domains:
-    print(colored(f"Invalid domain entered: {domain}. Please choose from: {valid_do#80FF00#FFE200mains}", 'red'))
+    print(colored(f"Invalid domain entered: {domain}. Please choose from: {valid_domain}", 'red'))
     exit()
 
 # Your personal information (Pradyumn and X.com link)
